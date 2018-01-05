@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Houston 311</name>
+        <order>100</order>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>nabil.enayet</sys_created_by>
+        <sys_created_on>2016-05-24 13:05:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62df3f026f2fd20040adfe764b3ee498</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Houston 311</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Houston 311" source="x_8380_houston_311">b43f3f026f2fd20040adfe764b3ee494</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Houston 311">b43f3f026f2fd20040adfe764b3ee494</sys_scope>
+        <sys_update_name>sys_app_application_62df3f026f2fd20040adfe764b3ee498</sys_update_name>
+        <sys_updated_by>nabil.enayet</sys_updated_by>
+        <sys_updated_on>2016-05-24 13:05:49</sys_updated_on>
+        <title>Houston 311</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

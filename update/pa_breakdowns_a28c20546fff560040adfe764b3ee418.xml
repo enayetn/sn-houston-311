@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="INSERT_OR_UPDATE">
+        <default_filter/>
+        <description/>
+        <dimension display_value="Cases Neighborhood">aa8c20546fff560040adfe764b3ee417</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <groups/>
+        <id>33</id>
+        <name>Neighborhood</name>
+        <role_override>true</role_override>
+        <roles/>
+        <script/>
+        <scripted>false</scripted>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>nabil.enayet</sys_created_by>
+        <sys_created_on>2016-05-30 21:28:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a28c20546fff560040adfe764b3ee418</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Neighborhood</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Houston 311" source="x_8380_houston_311">b43f3f026f2fd20040adfe764b3ee494</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Houston 311">b43f3f026f2fd20040adfe764b3ee494</sys_scope>
+        <sys_update_name>pa_breakdowns_a28c20546fff560040adfe764b3ee418</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-30 23:39:46</sys_updated_on>
+        <type>1</type>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_breakdowns>
+</record_update>

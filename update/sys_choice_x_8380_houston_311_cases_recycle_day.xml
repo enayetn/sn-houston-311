@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="recycle_day" table="x_8380_houston_311_cases" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Friday</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-30 17:46:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4993bc06f3f560040adfe764b3ee4f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-30 17:46:13</sys_updated_on>
+            <value>Friday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FRIDAY-A</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18b250de6f2fd20040adfe764b3ee433</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:08</sys_updated_on>
+            <value>FRIDAY-A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FRIDAY-B</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01b250de6f2fd20040adfe764b3ee464</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:12</sys_updated_on>
+            <value>FRIDAY-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monday</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-30 18:11:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a46fb3cc6f3f560040adfe764b3ee425</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-30 18:11:37</sys_updated_on>
+            <value>Monday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MONDAY-A</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41b250de6f2fd20040adfe764b3ee453</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:11</sys_updated_on>
+            <value>MONDAY-A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monday-B</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70b250de6f2fd20040adfe764b3ee447</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:10</sys_updated_on>
+            <value>Monday-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>non active</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10d214de6f2fd20040adfe764b3ee459</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:40</sys_updated_on>
+            <value>non active</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>non-active</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-30 21:22:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa1be4146fff560040adfe764b3ee464</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-30 21:22:39</sys_updated_on>
+            <value>non-active</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thursday</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-30 17:45:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e85973c06f3f560040adfe764b3ee4a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-30 17:45:08</sys_updated_on>
+            <value>Thursday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thursday-A</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5b250de6f2fd20040adfe764b3ee466</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:12</sys_updated_on>
+            <value>Thursday-A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thursday-B</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01b250de6f2fd20040adfe764b3ee44f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:11</sys_updated_on>
+            <value>Thursday-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuesday</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-30 17:45:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7069f3c06f3f560040adfe764b3ee491</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-30 17:45:26</sys_updated_on>
+            <value>Tuesday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TUESDAY-A</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1b250de6f2fd20040adfe764b3ee454</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:11</sys_updated_on>
+            <value>TUESDAY-A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuesday-B</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b250de6f2fd20040adfe764b3ee439</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:09</sys_updated_on>
+            <value>Tuesday-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recycle_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9d254de6f2fd20040adfe764b3ee412</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 14:28:46</sys_updated_on>
+            <value>Unknown</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recycle_day</element>
+            <name>x_8380_houston_311_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 14:28:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d8b250de6f2fd20040adfe764b3ee433</sys_id>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_name>recycle_day</sys_name>
+            <sys_package display_value="Houston 311" source="x_8380_houston_311">b43f3f026f2fd20040adfe764b3ee494</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Houston 311">b43f3f026f2fd20040adfe764b3ee494</sys_scope>
+            <sys_update_name>sys_choice_x_8380_houston_311_cases_recycle_day</sys_update_name>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-30 21:22:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

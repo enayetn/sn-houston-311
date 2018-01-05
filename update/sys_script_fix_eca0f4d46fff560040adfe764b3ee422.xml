@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Calculate 311 Durations</name>
+        <run_once>true</run_once>
+        <script><![CDATA[var gr = new GlideRecord('x_8380_houston_311_cases');
+
+gr.addNotNullQuery('sr_created');
+gr.addNotNullQuery('sr_closed');
+//gr.setLimit(10);
+gr.query();
+
+while (gr.next()) {
+	gr.resolve_time = gs.dateDiff(gr.sr_created.getDisplayValue(),gr.sr_closed.getDisplayValue(),false);
+	gr.update();
+}
+
+//current.calendar_duration = gs.dateDiff(current.opened_at.getDisplayValue(),current.closed_at.getDisplayValue(),false);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>nabil.enayet</sys_created_by>
+        <sys_created_on>2016-05-30 21:48:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>eca0f4d46fff560040adfe764b3ee422</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Calculate 311 Durations</sys_name>
+        <sys_package display_value="Houston 311" source="x_8380_houston_311">b43f3f026f2fd20040adfe764b3ee494</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Houston 311">b43f3f026f2fd20040adfe764b3ee494</sys_scope>
+        <sys_update_name>sys_script_fix_eca0f4d46fff560040adfe764b3ee422</sys_update_name>
+        <sys_updated_by>nabil.enayet</sys_updated_by>
+        <sys_updated_on>2016-05-30 21:53:13</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

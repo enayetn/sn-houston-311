@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="heavy_trash_day" label="Heavy Trash Day" language="en" table="x_8380_houston_311_cases">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>heavy_trash_day</element>
+            <help/>
+            <hint/>
+            <label>Heavy Trash Day</label>
+            <language>en</language>
+            <name>x_8380_houston_311_cases</name>
+            <plural>Heavy Trash Days</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nabil.enayet</sys_created_by>
+            <sys_created_on>2016-05-24 13:30:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>947548566f2fd20040adfe764b3ee4cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Heavy Trash Day</sys_name>
+            <sys_package display_value="Houston 311" source="x_8380_houston_311">b43f3f026f2fd20040adfe764b3ee494</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Houston 311">b43f3f026f2fd20040adfe764b3ee494</sys_scope>
+            <sys_update_name>sys_documentation_x_8380_houston_311_cases_heavy_trash_day_en</sys_update_name>
+            <sys_updated_by>nabil.enayet</sys_updated_by>
+            <sys_updated_on>2016-05-24 13:30:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

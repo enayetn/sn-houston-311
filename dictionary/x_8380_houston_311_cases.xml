@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cases" max_length="40" name="x_8380_houston_311_cases" sizeclass="379189" type="collection">
+        <element label="Case Number" max_length="40" name="case_number" type="string"/>
+        <element choice="1" label="Channel Type" max_length="40" name="channel_type" type="choice">
+            <choice>
+                <element label="e-mail In" sequence="0" value="e-mail In"/>
+                <element label="Face2Face" sequence="0" value="Face2Face"/>
+                <element label="Fax In" sequence="0" value="Fax In"/>
+                <element label="Mail In" sequence="0" value="Mail In"/>
+                <element label="SMS In" sequence="0" value="SMS In"/>
+                <element label="Unknown" sequence="0" value="Unknown"/>
+                <element label="Voice In" sequence="0" value="Voice In"/>
+                <element label="WAP" sequence="0" value="WAP"/>
+                <element label="WEB" sequence="0" value="WEB"/>
+            </choice>
+        </element>
+        <element label="County" max_length="32" name="county" reference="x_8380_houston_311_county" type="reference"/>
+        <element label="Date Closed" max_length="40" name="date_closed" type="string"/>
+        <element label="Department" max_length="32" name="department" reference="x_8380_houston_311_department" type="reference"/>
+        <element label="District" max_length="32" name="district" reference="x_8380_houston_311_district" type="reference"/>
+        <element label="Division" max_length="32" name="division" reference="x_8380_houston_311_division" type="reference"/>
+        <element label="Due Date" max_length="40" name="due_date" type="string"/>
+        <element choice="1" label="Heavy Trash Day" max_length="40" name="heavy_trash_day" type="choice">
+            <choice>
+                <element label="1st Friday" sequence="0" value="1st Friday"/>
+                <element label="1st Monday" sequence="0" value="1st Monday"/>
+                <element label="1st Thursday" sequence="0" value="1st Thursday"/>
+                <element label="1st Tuesday" sequence="0" value="1st Tuesday"/>
+                <element label="1st Wednesday" sequence="0" value="1st Wednesday"/>
+                <element label="2nd Friday" sequence="0" value="2nd Friday"/>
+                <element label="2nd Monday" sequence="0" value="2nd Monday"/>
+                <element label="2nd Thursday" sequence="0" value="2nd Thursday"/>
+                <element label="2nd Tuesday" sequence="0" value="2nd Tuesday"/>
+                <element label="2nd Wednesday" sequence="0" value="2nd Wednesday"/>
+                <element label="3rd Friday" sequence="0" value="3rd Friday"/>
+                <element label="3rd Monday" sequence="0" value="3rd Monday"/>
+                <element label="3rd Thursday" sequence="0" value="3rd Thursday"/>
+                <element label="3rd Tuesday" sequence="0" value="3rd Tuesday"/>
+                <element label="3rd Wednesday" sequence="0" value="3rd Wednesday"/>
+                <element label="4th Friday" sequence="0" value="4th Friday"/>
+                <element label="4th Monday" sequence="0" value="4th Monday"/>
+                <element label="4th Thursday" sequence="0" value="4th Thursday"/>
+                <element label="4th Tuesday" sequence="0" value="4th Tuesday"/>
+                <element label="4th Wednesday" sequence="0" value="4th Wednesday"/>
+                <element label="Contract" sequence="0" value="Contract"/>
+                <element label="Unknown" sequence="0" value="Unknown"/>
+            </choice>
+        </element>
+        <element label="Key Map" max_length="40" name="key_map" type="string"/>
+        <element label="Latitude" max_length="20" name="latitude" type="float"/>
+        <element label="Longitude" max_length="20" name="longitude" type="float"/>
+        <element choice="1" label="Management District" max_length="40" name="management_district" type="choice">
+            <choice>
+                <element label="Airline IMPROVEMENT DISTRICT" sequence="0" value="Airline IMPROVEMENT DISTRICT"/>
+                <element label="Airline PID" sequence="0" value="Airline PID"/>
+                <element label="Aldin North Expansion Tract2" sequence="0" value="Aldin North Expansion Tract2"/>
+                <element label="Aldine North Expansion Tract1" sequence="0" value="Aldine North Expansion Tract1"/>
+                <element label="Aldine PID" sequence="0" value="Aldine PID"/>
+                <element label="Baybrook" sequence="0" value="Baybrook"/>
+                <element label="Baybrook MD" sequence="0" value="Baybrook MD"/>
+                <element label="East Downtown" sequence="0" value="East Downtown"/>
+                <element label="East Downtown MD" sequence="0" value="East Downtown MD"/>
+                <element label="East End" sequence="0" value="East End"/>
+                <element label="East End MD" sequence="0" value="East End MD"/>
+                <element label="FB CAD #6" sequence="0" value="FB CAD #6"/>
+                <element label="Five Corners HCID #10B" sequence="0" value="Five Corners HCID #10B"/>
+                <element label="Five Corners Improvement Dist(HCID #10B)" sequence="0" value="Five Corners Improvement Dist(HCID #10B)"/>
+                <element label="Greater Greenspoint" sequence="0" value="Greater Greenspoint"/>
+                <element label="Greater Greenspoint MD" sequence="0" value="Greater Greenspoint MD"/>
+                <element label="Greater Northside" sequence="0" value="Greater Northside"/>
+                <element label="Greater Northside MD" sequence="0" value="Greater Northside MD"/>
+                <element label="Greater Southeast" sequence="0" value="Greater Southeast"/>
+                <element label="Greater Southeast MD" sequence="0" value="Greater Southeast MD"/>
+                <element label="Harris County PID#2" sequence="0" value="Harris County PID#2"/>
+                <element label="HCID #10-A" sequence="0" value="HCID #10-A"/>
+                <element label="HCID #12" sequence="0" value="HCID #12"/>
+                <element label="HCID #16" sequence="0" value="HCID #16"/>
+                <element label="HCID #3 (Upper Kirby)" sequence="0" value="HCID #3 (Upper Kirby)"/>
+                <element label="HCID #3 TRACT 24 (Upper Kirby)" sequence="0" value="HCID #3 TRACT 24 (Upper Kirby)"/>
+                <element label="HCID #3 TRACT 3 (Upper Kirby)" sequence="0" value="HCID #3 TRACT 3 (Upper Kirby)"/>
+                <element label="HCID #3 TRACT 42 (Upper Kirby)" sequence="0" value="HCID #3 TRACT 42 (Upper Kirby)"/>
+                <element label="HCID #3 TRACT 46 (Upper Kirby)" sequence="0" value="HCID #3 TRACT 46 (Upper Kirby)"/>
+                <element label="HCID #3 TRACT 48 (Upper Kirby)" sequence="0" value="HCID #3 TRACT 48 (Upper Kirby)"/>
+                <element label="HCID #4 (Energy Corridor)" sequence="0" value="HCID #4 (Energy Corridor)"/>
+                <element label="HCID #5 (Brays Oaks)" sequence="0" value="HCID #5 (Brays Oaks)"/>
+                <element label="HCID #6" sequence="0" value="HCID #6"/>
+                <element label="HCID #8" sequence="0" value="HCID #8"/>
+                <element label="HCID #9" sequence="0" value="HCID #9"/>
+                <element label="HCRID #1" sequence="0" value="HCRID #1"/>
+                <element label="Houston Downtown" sequence="0" value="Houston Downtown"/>
+                <element label="International Management District" sequence="0" value="International Management District"/>
+                <element label="International MD" sequence="0" value="International MD"/>
+                <element label="Lamar Terrace PID" sequence="0" value="Lamar Terrace PID"/>
+                <element label="Memorial City MD" sequence="0" value="Memorial City MD"/>
+                <element label="Midtown" sequence="0" value="Midtown"/>
+                <element label="Midtown MD" sequence="0" value="Midtown MD"/>
+                <element label="Montrose Management District" sequence="0" value="Montrose Management District"/>
+                <element label="Near Northwest MD" sequence="0" value="Near Northwest MD"/>
+                <element label="Propose Memorial Management District" sequence="0" value="Propose Memorial Management District"/>
+                <element label="Proposed Memorial City" sequence="0" value="Proposed Memorial City"/>
+                <element label="Sharpstown" sequence="0" value="Sharpstown"/>
+                <element label="Sharpstown MD" sequence="0" value="Sharpstown MD"/>
+                <element label="Spring Branch" sequence="0" value="Spring Branch"/>
+                <element label="Spring Branch MD" sequence="0" value="Spring Branch MD"/>
+                <element label="Unknown" sequence="0" value="Unknown"/>
+                <element label="Upper Kirby PID" sequence="0" value="Upper Kirby PID"/>
+                <element label="Uptown Houston" sequence="0" value="Uptown Houston"/>
+                <element label="Uptown Houston MD" sequence="0" value="Uptown Houston MD"/>
+                <element label="West Montrose" sequence="0" value="West Montrose"/>
+                <element label="Westchase" sequence="0" value="Westchase"/>
+                <element label="Westchase MD" sequence="0" value="Westchase MD"/>
+            </choice>
+        </element>
+        <element label="Neighborhood" max_length="32" name="neighborhood" reference="x_8380_houston_311_neighborhood" type="reference"/>
+        <element label="Overdue" max_length="40" name="overdue" type="float"/>
+        <element label="Queue" max_length="32" name="queue" reference="x_8380_houston_311_queue" type="reference"/>
+        <element choice="1" label="Recycle Day" max_length="40" name="recycle_day" type="choice">
+            <choice>
+                <element label="Friday" sequence="0" value="Friday"/>
+                <element label="FRIDAY-A" sequence="0" value="FRIDAY-A"/>
+                <element label="FRIDAY-B" sequence="0" value="FRIDAY-B"/>
+                <element label="Monday" sequence="0" value="Monday"/>
+                <element label="MONDAY-A" sequence="0" value="MONDAY-A"/>
+                <element label="Monday-B" sequence="0" value="Monday-B"/>
+                <element label="non active" sequence="0" value="non active"/>
+                <element label="non-active" sequence="0" value="non-active"/>
+                <element label="Thursday" sequence="0" value="Thursday"/>
+                <element label="Thursday-A" sequence="0" value="Thursday-A"/>
+                <element label="Thursday-B" sequence="0" value="Thursday-B"/>
+                <element label="Tuesday" sequence="0" value="Tuesday"/>
+                <element label="TUESDAY-A" sequence="0" value="TUESDAY-A"/>
+                <element label="Tuesday-B" sequence="0" value="Tuesday-B"/>
+                <element label="Unknown" sequence="0" value="Unknown"/>
+            </choice>
+        </element>
+        <element choice="1" label="Recycle Quad" max_length="40" name="recycle_quad" type="choice">
+            <choice>
+                <element label="NE" sequence="0" value="NE"/>
+                <element label="NW" sequence="0" value="NW"/>
+                <element label="SE" sequence="0" value="SE"/>
+                <element label="SW" sequence="0" value="SW"/>
+                <element label="Unknown" sequence="0" value="Unknown"/>
+            </choice>
+        </element>
+        <element label="Resolve TIme" max_length="40" name="resolve_time" type="glide_duration"/>
+        <element label="SLA" max_length="40" name="sla" type="float"/>
+        <element label="SR Closed" max_length="40" name="sr_closed" type="glide_date_time"/>
+        <element label="SR Created" max_length="40" name="sr_created" type="glide_date_time"/>
+        <element label="SR Create Date" max_length="40" name="sr_create_date" type="string"/>
+        <element label="SR Due" max_length="40" name="sr_due" type="glide_date_time"/>
+        <element label="SR Location" max_length="500" name="sr_location" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="15" sequence="0" value="15"/>
+                <element label="180" sequence="0" value="180"/>
+                <element label="22" sequence="0" value="22"/>
+                <element label="Closed" sequence="0" value="Closed"/>
+                <element label="Open" sequence="0" value="Open"/>
+            </choice>
+        </element>
+        <element label="Tax ID" max_length="80" name="tax_id" type="integer"/>
+        <element label="Title" max_length="300" name="title" type="string"/>
+        <element choice="1" label="Trash Day" max_length="40" name="trash_day" type="choice">
+            <choice>
+                <element label="FRIDAY" sequence="0" value="FRIDAY"/>
+                <element label="MONDAY" sequence="0" value="MONDAY"/>
+                <element label="THURSDAY" sequence="0" value="THURSDAY"/>
+                <element label="TUESDAY" sequence="0" value="TUESDAY"/>
+                <element label="Unknown" sequence="0" value="Unknown"/>
+            </choice>
+        </element>
+        <element choice="1" label="Trash Quad" max_length="40" name="trash_quad" type="choice">
+            <choice>
+                <element label="NE" sequence="0" value="NE"/>
+                <element label="NW" sequence="0" value="NW"/>
+                <element label="SE" sequence="0" value="SE"/>
+                <element label="SW" sequence="0" value="SW"/>
+                <element label="Unknown" sequence="0" value="Unknown"/>
+            </choice>
+        </element>
+        <element label="Type" max_length="32" name="type" reference="x_8380_houston_311_type" type="reference"/>
+        <element label="x" max_length="20" name="x" type="float"/>
+        <element label="y" max_length="20" name="y" type="float"/>
+        <index name="index">
+            <element name="division"/>
+        </index>
+        <index name="index2">
+            <element name="district"/>
+        </index>
+        <index name="index3">
+            <element name="county"/>
+        </index>
+        <index name="index4">
+            <element name="case_number"/>
+        </index>
+        <index name="index5">
+            <element name="neighborhood"/>
+        </index>
+        <index name="index6">
+            <element name="department"/>
+        </index>
+        <index name="index7">
+            <element name="type"/>
+        </index>
+        <index name="index8">
+            <element name="queue"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Fix dates in Houston  311 data</name>
+        <run_once>true</run_once>
+        <script><![CDATA[var gr = new GlideRecord('x_8380_houston_311_cases');
+
+gr.addNullQuery('sr_created');
+gr.addNotNullQuery('sr_create_date');
+//gr.setLimit(10);
+gr.query();
+
+while (gr.next()) {
+	if (gr.date_closed!='')
+		updateTime(gr,'date_closed','sr_closed');
+	
+	if (gr.sr_create_date!='')
+		updateTime(gr,'sr_create_date','sr_created');
+	
+	if (gr.due_date!='')
+		updateTime(gr,'due_date','sr_due');
+}
+
+function updateTime(gr_obj, date_field, target_field) {
+	
+	var currentDateTime = gr_obj[date_field].toString();
+	
+	var hour = currentDateTime.split(' ')[1].split(':')[0];
+	var mins = currentDateTime.split(' ')[1].split(':')[1];
+	
+	gr_obj[target_field].setDisplayValue(currentDateTime, 'MM/dd/yy HH:mm:ss');
+	gr_obj.update();
+	var gdt = new GlideDateTime(gr_obj[target_field]);
+	gdt.addYearsUTC(2000);
+	//gdt.addSeconds(-6*60*60);
+	gdt.addSeconds(hour*60*60);
+	gdt.addSeconds(mins*60);
+	gr_obj[target_field] = gdt;
+	gr_obj.update();
+	
+}
+
+// gs.info(gr.date_closed);
+
+// var hour = gr.date_closed.toString().split(' ')[1].split(':')[0];
+// var mins = gr.date_closed.toString().split(' ')[1].split(':')[1];
+
+// gs.info(gr.sr_closed);
+// gr.sr_closed.setDisplayValue(gr.date_closed.toString(),'MM/dd/yy HH:mm:ss');
+// gr.update();
+// var gdt = new GlideDateTime(gr.sr_closed);
+// gdt.addYearsUTC(2000);
+// gdt.addSeconds(-6*60*60);
+// gdt.addSeconds(hour*60*60);
+// gdt.addSeconds(mins*60);
+// gs.info(gdt);
+// gr.sr_closed = gdt;
+// gr.update();
+// gs.info(gr.sr_closed);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>nabil.enayet</sys_created_by>
+        <sys_created_on>2016-05-30 20:26:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d36b1c986f7f560040adfe764b3ee45d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Fix dates in Houston  311 data</sys_name>
+        <sys_package display_value="Houston 311" source="x_8380_houston_311">b43f3f026f2fd20040adfe764b3ee494</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Houston 311">b43f3f026f2fd20040adfe764b3ee494</sys_scope>
+        <sys_update_name>sys_script_fix_d36b1c986f7f560040adfe764b3ee45d</sys_update_name>
+        <sys_updated_by>nabil.enayet</sys_updated_by>
+        <sys_updated_on>2016-05-30 20:38:23</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

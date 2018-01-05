@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="SR Import" max_length="40" name="x_8380_houston_311_sr_import" sizeclass="344117" type="collection">
+        <element attributes="import_attribute_name=CASE NUMBER,edge_encryption_enabled=true" label="CASE NUMBER" max_length="40" name="u_case_number" type="string"/>
+        <element attributes="import_attribute_name=Channel Type,edge_encryption_enabled=true" label="Channel Type" max_length="40" name="u_channel_type" type="string"/>
+        <element attributes="import_attribute_name=COUNTY,edge_encryption_enabled=true" label="COUNTY" max_length="40" name="u_county" type="string"/>
+        <element attributes="import_attribute_name=DATE CLOSED,edge_encryption_enabled=true" label="DATE CLOSED" max_length="40" name="u_date_closed" type="string"/>
+        <element attributes="import_attribute_name=DEPARTMENT,edge_encryption_enabled=true" label="DEPARTMENT" max_length="40" name="u_department" type="string"/>
+        <element attributes="import_attribute_name=DISTRICT,edge_encryption_enabled=true" label="DISTRICT" max_length="40" name="u_district" type="string"/>
+        <element attributes="import_attribute_name=DIVISION,edge_encryption_enabled=true" label="DIVISION" max_length="40" name="u_division" type="string"/>
+        <element attributes="import_attribute_name=DUE DATE,edge_encryption_enabled=true" label="DUE DATE" max_length="40" name="u_due_date" type="string"/>
+        <element attributes="import_attribute_name=field_30,edge_encryption_enabled=true" label="field_30" max_length="40" name="u_field_30" type="string"/>
+        <element attributes="import_attribute_name=HEAVY TRASH DAY,edge_encryption_enabled=true" label="HEAVY TRASH DAY" max_length="40" name="u_heavy_trash_day" type="string"/>
+        <element attributes="import_attribute_name=KEY MAP,edge_encryption_enabled=true" label="KEY MAP" max_length="40" name="u_key_map" type="string"/>
+        <element attributes="import_attribute_name=LATITUDE,edge_encryption_enabled=true" label="LATITUDE" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="import_attribute_name=LONGITUDE,edge_encryption_enabled=true" label="LONGITUDE" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="import_attribute_name=MANAGEMENT DISTRICT,edge_encryption_enabled=true" label="MANAGEMENT DISTRICT" max_length="40" name="u_management_district" type="string"/>
+        <element attributes="import_attribute_name=NEIGHBORHOOD,edge_encryption_enabled=true" label="NEIGHBORHOOD" max_length="40" name="u_neighborhood" type="string"/>
+        <element attributes="import_attribute_name=OVERDUE,edge_encryption_enabled=true" label="OVERDUE" max_length="40" name="u_overdue" type="string"/>
+        <element attributes="import_attribute_name=QUEUE,edge_encryption_enabled=true" label="QUEUE" max_length="40" name="u_queue" type="string"/>
+        <element attributes="import_attribute_name=RECYCLE DAY,edge_encryption_enabled=true" label="RECYCLE DAY" max_length="40" name="u_recycle_day" type="string"/>
+        <element attributes="import_attribute_name=RECYCLE QUAD,edge_encryption_enabled=true" label="RECYCLE QUAD" max_length="40" name="u_recycle_quad" type="string"/>
+        <element attributes="import_attribute_name=SLA,edge_encryption_enabled=true" label="SLA" max_length="40" name="u_sla" type="string"/>
+        <element attributes="import_attribute_name=SR CREATE DATE,edge_encryption_enabled=true" label="SR CREATE DATE" max_length="40" name="u_sr_create_date" type="string"/>
+        <element attributes="import_attribute_name=SR LOCATION,edge_encryption_enabled=true" label="SR LOCATION" max_length="85" name="u_sr_location" type="string"/>
+        <element attributes="import_attribute_name=SR TYPE,edge_encryption_enabled=true" label="SR TYPE" max_length="40" name="u_sr_type" type="string"/>
+        <element attributes="import_attribute_name=STATUS,edge_encryption_enabled=true" label="STATUS" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=TAX ID,edge_encryption_enabled=true" label="TAX ID" max_length="40" name="u_tax_id" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="110" name="u_title" type="string"/>
+        <element attributes="import_attribute_name=TRASH DAY,edge_encryption_enabled=true" label="TRASH DAY" max_length="40" name="u_trash_day" type="string"/>
+        <element attributes="import_attribute_name=TRASH QUAD,edge_encryption_enabled=true" label="TRASH QUAD" max_length="40" name="u_trash_quad" type="string"/>
+        <element attributes="import_attribute_name=x,edge_encryption_enabled=true" label="x" max_length="88" name="u_x" type="string"/>
+        <element attributes="import_attribute_name=y,edge_encryption_enabled=true" label="y" max_length="40" name="u_y" type="string"/>
+    </element>
+</database>
